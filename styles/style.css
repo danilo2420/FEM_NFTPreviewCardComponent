@@ -102,3 +102,13 @@ body {
 .content__bottom__username span {
     color: var(--white);
 }
+
+@media (min-width: 600px) {
+    body {
+        padding: 70px 0px;
+    }
+
+    .container {
+        width: 350px;
+    }
+}
