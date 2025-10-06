@@ -21,10 +21,16 @@ body {
     gap: 24px;
 }
 
-img {
+.mainImage {
     width: 100%;
 
     border-radius: 8px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .content__top {
@@ -37,4 +43,36 @@ img {
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+
+.content__top__info__text {
+    color: var(--blue500)
+}
+
+.content__top__data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content__top__data__left,
+.content__top__data__right {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.content__top__data__left__icon {
+    width: 11px;
+}
+
+.content__top__data__left__eth {
+    color: var(--cyan400);
+}
+
+.content__top__data__right__icon {
+    width: 16px;
+}
+
+.content__top__data__right__days {
+    color: var(--blue500);
 }
