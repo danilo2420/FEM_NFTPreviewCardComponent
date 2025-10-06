@@ -1,5 +1,40 @@
 
-body > div {
+body {
+    background-color: var(--blue950);
 
-    
+    padding: 36px 12px;
+    color: var(--white);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 24px;
+    background-color: var(--blue900);
+
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+img {
+    width: 100%;
+
+    border-radius: 8px;
+}
+
+.content__top {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.content__top__info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
