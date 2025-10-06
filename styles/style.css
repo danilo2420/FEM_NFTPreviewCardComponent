@@ -80,3 +80,25 @@ body {
 .content__separator {
     border: solid var(--blue800) 0.5px;
 }
+
+.content__bottom {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.content__bottom__image {
+    width: 33px;
+    height: 33px;
+
+    border-radius: 100vw;
+    border: solid var(--white) 2px;
+}
+
+.content__bottom__username {
+    color: var(--blue500);
+}
+
+.content__bottom__username span {
+    color: var(--white);
+}
