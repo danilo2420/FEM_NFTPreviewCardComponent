@@ -4,6 +4,8 @@
 // This is a solution to the ugly bandaid that I used to use until now
 // *** 
 
+// TODO: I'll probably have to add the elements here as an object instead of a JSON  
+
 let typographiesArray = null;
 const versionMinWidth = {
     "mobile": 0,
