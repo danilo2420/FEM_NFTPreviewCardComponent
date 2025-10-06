@@ -76,3 +76,7 @@ body {
 .content__top__data__right__days {
     color: var(--blue500);
 }
+
+.content__separator {
+    border: solid var(--blue800) 0.5px;
+}
