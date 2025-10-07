@@ -109,6 +109,7 @@ body {
 
 .content__top__data__left__icon {
     width: 11px;
+    cursor: pointer;
 }
 
 .content__top__data__left__eth {
@@ -117,6 +118,7 @@ body {
 
 .content__top__data__right__icon {
     width: 16px;
+    cursor: pointer;;
 }
 
 .content__top__data__right__days {
