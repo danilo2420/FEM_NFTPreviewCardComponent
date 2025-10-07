@@ -21,6 +21,9 @@ body {
     gap: 24px;
 
     transition: filter 300ms;
+
+    position: relative;
+    opacity: 0;
 }
 
 .container:hover {
@@ -136,6 +139,8 @@ body {
 
     border-radius: 100vw;
     border: solid var(--white) 2px;
+
+    cursor: pointer;
 }
 
 .content__bottom__username {
