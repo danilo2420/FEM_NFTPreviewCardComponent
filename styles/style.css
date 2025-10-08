@@ -27,7 +27,7 @@ body {
 }
 
 .container:hover {
-    filter: drop-shadow(0 0 1.5em #c71d5f);
+    filter: drop-shadow(0 0 2rem #690c2f);
 }
 
 .mainImage {

@@ -8,7 +8,6 @@ container.style.left = '-250px';
 
 animate('.container', {
     duration: 1500,
-    opacity: 1,
     translateX: 250,
     ease: 'outBack'
 });
@@ -17,7 +16,6 @@ animate('.container', {
     duration: 3000,
     opacity: 1
 });
-
 
 // Eye jump animation on click
 const clickableImage = document.querySelector('.mainImage');
